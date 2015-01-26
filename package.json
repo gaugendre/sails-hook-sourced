@@ -1,0 +1,27 @@
+{
+  "name": "sails-hook-sourced",
+  "version": "0.0.0",
+  "description": "A sails.js hook based on sourced tiny framework to provide an event sourcing pattern on top of Waterline",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilhem Augendre",
+  "license": "MIT",
+  "dependencies": {
+    "sourced": "0.0.14"
+  },
+  "keywords": [
+    "sourced",
+    "eventsourcing",
+    "eventsource",
+    "event-source",
+    "waterline",
+    "sails",
+    "sails.js",
+    "sailsjs"
+  ],
+  "sails": {
+    "isHook": true
+  }
+}
